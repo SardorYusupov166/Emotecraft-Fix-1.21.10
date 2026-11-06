@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "emotecraft_anim_compat",
+  "version": "${version}",
+  "name": "Emotecraft Animation Compatibility (1.21.10)",
+  "description": "Pauses compatible EMF player animations while Emotecraft emotes play.",
+  "authors": ["SardorYusupov166"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.sardor.emotecompat.EmoteAnimationCompat"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.10",
+    "fabricloader": ">=${loader_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "emotecraft": "*",
+    "entity_model_features": "*"
+  }
+}
